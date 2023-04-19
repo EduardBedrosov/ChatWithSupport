@@ -1,0 +1,19 @@
+
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
+    repositories {
+        mavenCentral()
+        maven { url 'https://zendesk.jfrog.io/zendesk/repo' }
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "ChatWithSupport"
+include ':app'
